@@ -22,6 +22,8 @@ beziehen. Projektdaten bleiben lokal auf deinem Gerät.
 preliminary design and may contain errors; no warranty, use at your own risk, liability excluded as far as permitted
 by law.*
 
+**[Anleitung lesen](ANLEITUNG.md)**
+
 ## Download (Version 0.7.0-alpha, Stand 02.11.2026)
 
 Direkt aus dem Ordner [`downloads/`](downloads/) (später zusätzlich unter Releases):
