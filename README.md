@@ -22,14 +22,14 @@ beziehen. Projektdaten bleiben lokal auf deinem Gerät.
 preliminary design and may contain errors; no warranty, use at your own risk, liability excluded as far as permitted
 by law.*
 
-## Download
+## Download (Version 0.7.0-alpha, Stand 02.11.2026)
 
-Unter **[Releases](https://github.com/josefwagner1989-wq/SPK-Konzept-Ersteller-Alpha/releases)** liegt die neueste Alpha:
+Direkt aus dem Ordner [`downloads/`](downloads/) (später zusätzlich unter Releases):
 
 | System | Datei | Installation |
 |---|---|---|
-| Windows 10/11 (x64) | `SPK-Konzept-Ersteller-Setup.exe` | Doppelklick, installiert ohne Admin-Rechte für deinen Benutzer |
-| Linux | `spk-konzept-ersteller.flatpak` | `flatpak install --user spk-konzept-ersteller.flatpak` |
+| Windows 10/11 (x64) | [`SPK-Konzept-Ersteller-Setup.exe`](https://github.com/josefwagner1989-wq/SPK-Konzept-Ersteller-Alpha/raw/main/downloads/SPK-Konzept-Ersteller-Setup.exe) | Doppelklick, installiert ohne Admin-Rechte für deinen Benutzer |
+| Linux | [`spk-konzept-ersteller.flatpak`](https://github.com/josefwagner1989-wq/SPK-Konzept-Ersteller-Alpha/raw/main/downloads/spk-konzept-ersteller.flatpak) (folgt in Kürze) | `flatpak install --user spk-konzept-ersteller.flatpak` |
 
 Windows SmartScreen kann warnen, weil die Datei noch nicht signiert ist („Weitere Informationen“ → „Trotzdem ausführen“).
 
@@ -38,4 +38,4 @@ Windows SmartScreen kann warnen, weil die Datei noch nicht signiert ist („Weit
 Fehler und Wünsche bitte als [Issue](https://github.com/josefwagner1989-wq/SPK-Konzept-Ersteller-Alpha/issues) –
 mit Version, Norm, Gefahrenklasse und was du erwartet hast.
 
-Der Quellcode ist nicht öffentlich. Dieses Repository enthält nur die Downloads.
+Creator: Josef Wagner. Der Quellcode ist nicht öffentlich. Dieses Repository enthält nur die Downloads.
