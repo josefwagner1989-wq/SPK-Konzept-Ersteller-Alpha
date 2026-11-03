@@ -1,6 +1,6 @@
 # Anleitung SPK Konzept-Ersteller (Alpha 0.7.0)
 
-Stand 02.11.2026 · Josef Wagner
+Stand 03.11.2026 · Josef Wagner
 
 Der SPK Konzept-Ersteller bemisst eine Sprinkleranlage vor: nach VdS CEA 4001:2024-01, wahlweise NFPA 13/20 oder FM Global – vom Projekt über Netzberechnung und Pumpen-Wahl bis zu Schema, Gruppenplan und Bericht. Alpha-Testversion: nur zum Testen, keine kommerzielle Nutzung, ersetzt keine vollständige hydraulische Berechnung.
 
@@ -158,7 +158,17 @@ Die Alpha ist eine Vorbemessung zum Testen; diese Punkte sind bekannt und offen:
 - Nur Baumnetze mit endgespeisten Strängen; keine Ring- oder Gitternetze.
 - Viele Normwerte und alle Abschnittstitel im Ablauf sind noch nicht gegen die VdS-Ausgabe geprüft (orange markiert).
 - Pumpen-Datenbank: bisher nur Baureihen-Grenzwerte von KSB, noch keine Kennlinien je Modell.
-- Kein Projekt-Export als Datei; DWG nur über einen externen Konverter.
+- DWG nur über einen externen Konverter (DXF-Import und -Export sind eingebaut).
 - NFPA- und FM-Werte überwiegend aus Sekundärquellen; einige Konzeptfunktionen folgen der VdS-Logik.
 
 **Feedback:** Fehler und Wünsche bitte als [Issue im Alpha-Repository](https://github.com/josefwagner1989-wq/SPK-Konzept-Ersteller-Alpha/issues) – mit Version, Regelwerk, Gefahrenklasse, deinen Eingaben und was du erwartet hast. Ein Screenshot hilft.
+
+## 13 Neu am 03.11.2026
+
+- **Timmy, der Wal:** schwimmt über freie Stellen der Seite und gibt Tipps zum aktuellen Reiter oder Ablaufschritt. Maus drüber oder anklicken → er reagiert (42 Animationen), Klick zeigt den nächsten Tipp. „Ausblenden“ schließt ihn, der kleine Wal-Knopf unten rechts holt ihn zurück.
+- **Bauteile anklicken:** Im Konzeptschema (und in seiner Legende) sind Absperrarmatur, Rückflussverhinderer, Nass- und Trockenalarmventil, Sprinklerpumpe, Druckhaltepumpe und Sprinkler klickbar: Erklärung, Funktionsanimation in Schritten („Abspielen“), Kurz-Datenblatt, Fundstellen und Knopf zur eigenen Norm-PDF.
+- **Sprinklerbauarten:** zusätzlich ELO (K 160/200), ESFR, Großtropfen (CMSA), erweiterte Schutzfläche, Regal-, Wohnbereichs-, Fenster-/Kühl- und Trockensprinkler. Sonderbauarten werden nach ihrer Zulassung bemessen – das Programm weist darauf hin.
+- **Nennöffnungstemperatur:** Tabelle mit Glasfass-Farbe (57 … 260 °C), max. Umgebungstemperatur und Eignung für den Bereich; Zeile anklicken wählt sie aus.
+- **Besondere Bereiche:** Oberlichter, Bühnen/Podeste/Galerien, Mezzanine, Fördertechnik, Lithium-Batterien – mit Hinweisen; Sprinkler unter Einbauten zählen für die Stationsgröße.
+- **Pumpen-Wahl:** Größe wählen – ideal in der Mitte, kleiner und größer daneben; Diagramm mit Idealbereich und Bedarfspunkt.
+- **Projektdatei:** „Projekt speichern (Datei)“ und „Projekt öffnen“ oben im Projektkasten.
