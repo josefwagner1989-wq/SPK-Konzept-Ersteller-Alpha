@@ -24,7 +24,7 @@ by law.*
 
 **[Anleitung lesen](ANLEITUNG.md)**
 
-## Download (Version 0.7.0-alpha, Stand 02.11.2026)
+## Download (Version 0.8.0-alpha, Stand 03.11.2026)
 
 Direkt aus dem Ordner [`downloads/`](downloads/) (später zusätzlich unter Releases):
 

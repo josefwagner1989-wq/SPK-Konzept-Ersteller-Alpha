@@ -1,4 +1,4 @@
-# Anleitung SPK Konzept-Ersteller (Alpha 0.7.0)
+# Anleitung SPK Konzept-Ersteller (Alpha 0.8.0)
 
 Stand 03.11.2026 · Josef Wagner
 
@@ -172,3 +172,11 @@ Die Alpha ist eine Vorbemessung zum Testen; diese Punkte sind bekannt und offen:
 - **Besondere Bereiche:** Oberlichter, Bühnen/Podeste/Galerien, Mezzanine, Fördertechnik, Lithium-Batterien – mit Hinweisen; Sprinkler unter Einbauten zählen für die Stationsgröße.
 - **Pumpen-Wahl:** Größe wählen – ideal in der Mitte, kleiner und größer daneben; Diagramm mit Idealbereich und Bedarfspunkt.
 - **Projektdatei:** „Projekt speichern (Datei)“ und „Projekt öffnen“ oben im Projektkasten.
+
+## 14 Neu in 0.8.0 (03.11.2026)
+
+- **Objektschutz** (Werkzeuge): Transformator, Maschine/Anlage, Regalstirnseite/Förderer, Kabeltrasse – benetzte Fläche, Wasserbedarf, Düsenzahl, Wasservorrat. Beaufschlagung, Betriebszeit und Düsendaten trägst du aus Norm/Richtlinie und Datenblatt ein.
+- **Rippen-/Balkendecken** (Auslegung): Rippenhöhe, lichter Abstand und die Grenzwerte aus Kapitel 11 eintragen – das Programm entscheidet „unter den Rippen“ oder „in jedem Feld“ und zählt die Sprinkler.
+- **Frag Timmy**: über 60 Tipps und Tricks zum Durchsuchen, mit Sprung in den passenden Reiter.
+- **Feedback**: Knopf in Timmys Sprechblase – dein Kommentar geht an das Team.
+- **Timmy** schwimmt jetzt wie ein Wal (Schwanzflosse auf und ab, Bögen, Loopings, Saltos).
